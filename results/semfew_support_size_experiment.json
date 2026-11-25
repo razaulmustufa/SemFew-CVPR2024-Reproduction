@@ -1,0 +1,62 @@
+{
+    "1shot": {
+        "shot": 1,
+        "fusion_k": 0.83,
+        "episodes": 600,
+        "semfew": {
+            "accuracy": 83.8156,
+            "ci95": 0.6837
+        },
+        "visual_only": {
+            "accuracy": 73.3667,
+            "ci95": 0.8918
+        },
+        "reconstructed_only": {
+            "accuracy": 80.7889,
+            "ci95": 0.7487
+        }
+    },
+    "2shot": {
+        "shot": 2,
+        "fusion_k": 0.68,
+        "episodes": 600,
+        "semfew": {
+            "accuracy": 84.7444,
+            "ci95": 0.6304
+        },
+        "visual_only": {
+            "accuracy": 79.8222,
+            "ci95": 0.7509
+        }
+    },
+    "5shot": {
+        "shot": 5,
+        "fusion_k": 0.47,
+        "episodes": 600,
+        "semfew": {
+            "accuracy": 87.5533,
+            "ci95": 0.5796
+        },
+        "visual_only": {
+            "accuracy": 86.5267,
+            "ci95": 0.6311
+        },
+        "reconstructed_only": {
+            "accuracy": 81.16,
+            "ci95": 0.782
+        }
+    },
+    "10shot": {
+        "shot": 10,
+        "fusion_k": 0.37,
+        "episodes": 600,
+        "semfew": {
+            "accuracy": 88.5333,
+            "ci95": 0.5408
+        },
+        "visual_only": {
+            "accuracy": 88.4356,
+            "ci95": 0.5447
+        }
+    }
+}
