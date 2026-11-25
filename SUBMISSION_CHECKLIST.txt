@@ -1,0 +1,6 @@
+[x] Training notebook, code, results, and screenshots bundled.
+[ ] GITHUB SOURCE ONLY: Two large weights are NOT included in this code-only archive.
+[ ] Provide pretrained ResNet-12 and team-trained SemAlign checkpoints via complete LMS ZIP or VERIFIED public cloud links.
+[ ] Insert real repository / cloud links into PDF first page, README, and LMS comments.
+[ ] Final PDF and complete submission must be frozen before 25 NOV 2026, 23:55 PKT.
+[ ] Save LMS confirmation screenshot; prepare presentation and individual viva.

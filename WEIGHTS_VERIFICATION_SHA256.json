@@ -1,0 +1,17 @@
+{
+  "ResNet-CIFAR-FS.pth": {
+    "bytes": 49918489,
+    "sha256": "4cec7c6102b7c82967f4d8ae5578ba9ba35c9e4941c77335b7f65e78ba26950c",
+    "origin": "Original authors pretrained backbone"
+  },
+  "semalign_training_checkpoint.pth": {
+    "bytes": 88144489,
+    "sha256": "3b98828989f0c302441aa21019c4ef7f7d4911a7fa85f446809ebdef50b69a06",
+    "origin": "Team-trained epoch-50 SemAlign"
+  },
+  "center_CIFAR-FS_resnet.pth": {
+    "bytes": 183357,
+    "sha256": "ce650b19bd2fa0ddb763a7f2e34c13560480e2b58921f7410617eb94400ed537",
+    "origin": "Team-calculated visual centers"
+  }
+}

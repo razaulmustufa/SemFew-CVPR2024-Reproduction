@@ -1,0 +1,1 @@
+This is a lightweight source-code package for GitHub. Pretrained ResNet and team-trained SemAlign weights are excluded. See README and acquire both .pth files from the complete LMS submission ZIP or public model links. Do not claim it is a complete runnable demo until weights are placed in deployment/weights/.
