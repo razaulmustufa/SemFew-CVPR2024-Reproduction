@@ -1,5 +1,13 @@
 # SemFew — Final Source-Code and Deployment Package
 
+## Official project and model download links
+
+- **GitHub repository (browse training, evaluation, and deployment source):** https://github.com/razaulmustufa/SemFew-CVPR2024-Reproduction
+- **Complete project ZIP with trained model weights (GitHub Release v1.0.0):** https://github.com/razaulmustufa/SemFew-CVPR2024-Reproduction/releases/tag/v1.0.0
+
+**Important:** The GitHub **Code** tab contains source code, experiment files, and documentation, but does not contain the two large ResNet-12 and SemAlign `.pth` weight files. Download the **complete ZIP** from the GitHub **Release assets** to obtain all deployment model weights. After extracting the complete ZIP, the Streamlit app can use `deployment/weights/` directly.
+
+
 ## Project summary
 Paper: Hai Zhang et al., *Simple Semantic-Aided Few-Shot Learning* (CVPR 2024).
 Course: Machine Learning, IBA Karachi, Fall 2026.
@@ -25,15 +33,15 @@ Note: a previous screenshot showed 82.82% 1-shot, but the **supplied executed no
 - `artifacts/center_CIFAR-FS_resnet.pth` — computed class centers (also under official-reference for matching notebook path).
 - `deployment_screenshots/` — example live runs; demonstration images are not benchmark accuracy measurements.
 
-## Model files — bundled for direct submission
+## Model files and package variants
 
-**The GitHub source-only version does NOT contain the two large `.pth` files required for Streamlit. Get both from the complete LMS ZIP or verified cloud links, and put them in `deployment/weights/`:
+The **complete ZIP linked above** contains the two `.pth` files required by Streamlit in `deployment/weights/`. The **GitHub Code tab/source-only download** omits those large model weights, so obtain the full ZIP from the Release when running the app:
 
 1. `ResNet-CIFAR-FS.pth` — research authors' pretrained ResNet-12 backbone (reused, **NOT trained from scratch by the team**).
 2. `semalign_training_checkpoint.pth` — team's SemAlign network trained for 50 epochs in Colab.
 3. `artifacts/center_CIFAR-FS_resnet.pth` — CIFAR-FS visual centers calculated during the project (also copied into the reference-code location used by the notebook).
 
-This source-only ZIP is suitable for a code repository, but it is not independently runnable until the two checkpoints are supplied. If the LMS rejects the ZIP, upload the ZIP to a cloud drive and provide a **verified, publicly viewable/downloadable link** in LMS comments, the first page of the final PDF, and the README. **No shared public URL has been supplied yet; do not invent one.** The same rule applies to GitHub links.
+For submission, the publicly accessible GitHub Release above provides the complete project ZIP with both required checkpoint files. Include both GitHub links in the final PDF report's first page and in LMS submission comments. The complete ZIP can alternatively be uploaded to LMS directly if LMS file-size limits permit.
 
 The dataset (`CIFAR-FS.zip`, around 197 MB) is **not** included in this ZIP: it was used for experiments and is required only to rerun dataset-based notebook training/evaluation, not for live Streamlit prediction. Keep an accessible dataset source/reference in your reproducibility notes.
 
